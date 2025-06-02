@@ -1,0 +1,36 @@
+Java와 Python의 차이
+
+Java : 컴파일
+Python : 인터프리터, 가상환경
+
+Python 가상환경 만드는 법 : 기존 환경을 복제해서 사용 후 폐기
+
+1. 폴더 생성
+2. 해당 폴더로 이동
+3. python -m venv venv 명령어 실행 = (원본환경에서 현재 폴더로 환경복사)
+4. 3에서 실행한 venv\Scripts 폴더로 이동
+5. activate
+6. 생성한 폴더로 vs code 들어가기
+7. basic 폴더 안에 test.py 파일 생성
+
+
+
+Python의 특징
+
+    * 변수 선언시
+        - 타입 선언 언어 : Java(int a = 3)
+        - 타입 선언하지 않는 언어 : JS(let a = 3), Python
+
+    Python
+        - 변수 선언시 타입을 선언하지 않는 언어
+        - 세미콜론 사용 X
+        - {} 없음 -> 탭으로 처리
+
+        - 서로 다른 타입끼리 + 사용시 TypeError 반환 | print(10 + "살")  = TypeError
+        
+        
+        
+        
+    function is not object 
+         - 함수에다가 값을 대입하면 덮어씌워짐. del 함수명으로 기존에 잘못 덮어 씌운 값을 초기화 해야함
+    
