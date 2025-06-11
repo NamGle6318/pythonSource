@@ -34,3 +34,8 @@ Python의 특징
     function is not object 
          - 함수에다가 값을 대입하면 덮어씌워짐. del 함수명으로 기존에 잘못 덮어 씌운 값을 초기화 해야함
     
+
+
+Python에서 외부 라이브러리 설치하기 
+    pip install 라이브러리명(현재 가상환경에 설치가 됨)
+    pip uninstall 라이브러리명 (제거)
